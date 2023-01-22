@@ -9,6 +9,7 @@ h1 {
     text-transform:lowercase;
 }
 
+
 h2 {
     color: rgb(45,101,104);
     font-family: 'Poppins', sans-serif;
@@ -17,8 +18,8 @@ h2 {
     line-height:.5em;
     text-align:center;
     text-transform:lowercase;
-
 }
+
 
 h3{
     color: rgb(45,101,104);
@@ -27,8 +28,8 @@ h3{
     font-weight:700; 
     line-height:.5em;
     text-transform:lowercase;
-    
 }
+
 
 h4{
     color: rgb(157,33,63);
@@ -39,7 +40,6 @@ h4{
     line-height:.5em;
     text-align:center;
     text-transform:lowercase;
-    
 }
 
 
@@ -49,17 +49,31 @@ p{
     font-size:.75em;
     font-weight:300;
     line-height:normal;
-
 }
 
-ul#mainNav {
+
+ul{
     list-style-type:circle;
 }
 
 
 a:link {
-    text-decoration: dotted;
-    color: rgb(17,17,29);
-    border-bottom:.5em;
+    text-decoration:underline;
+    border-bottom:5em;
 }
+
+
+a:visited {
+    color: rgb(17,17,29);
+    text-decoration:dotted;
+    border-bottom:5em;
+}
+
+
+a:hover{
+    color:rgb(157,33,63);
+    border-bottom: 5em;
+}
+
+
 
