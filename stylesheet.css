@@ -58,11 +58,13 @@ hr {
 }
 
 ul{
+    color: rgb(45,101,104);
     list-style-type:circle;
 }
 
 
 a:link {
+    color:rgb(45,101,104)
     text-decoration:underline;
     border-bottom:5em;
 }
