@@ -62,8 +62,8 @@ hr {
 ul{
     color: rgb(45,101,104);
     list-style-type:circle;
+    display: inline;
 }
-
 
 a:link {
     color:rgb(45,101,104);
