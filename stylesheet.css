@@ -64,7 +64,7 @@ ul{
 
 
 a:link {
-    color:rgb(45,101,104)
+    color:rgb(45,101,104);
     text-decoration:underline;
     border-bottom:5em;
 }
