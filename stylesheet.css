@@ -1,7 +1,9 @@
 body {
     background-image: url(/images/sunpattern.png);
+    background-position:center;
     background-color: rgb(211,211,211);
     background-repeat:repeat;
+    padding:3em;
 }
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
     font-weight:700;
     line-height:.5em;
     text-decoration: underline;
-    text-align:center; 
+    text-align:left; 
     text-transform:lowercase;
 }
 
@@ -21,7 +23,7 @@ h2 {
     font-size:1.5em;
     font-weight:500;
     line-height:.5em;
-    text-align:center;
+    text-align:left;
     text-transform:lowercase;
 }
 
@@ -41,7 +43,7 @@ h4{
     font-weight:500;
     font-style:italic;
     line-height:.5em;
-    text-align:center;
+    text-align:left;
     text-transform:lowercase;
 }
 
