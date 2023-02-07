@@ -61,7 +61,8 @@ hr {
 
 ul{
     color: rgb(45,101,104);
-    list-style-type:circle;
+    list-style-type: circle;
+    list-style-position: inside;
     display: block;
     text-align: center;
 }
