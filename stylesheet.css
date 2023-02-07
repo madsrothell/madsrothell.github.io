@@ -63,6 +63,7 @@ ul{
     color: rgb(45,101,104);
     list-style-type:circle;
     display: inline;
+    text-align: center;
 }
 
 a:link {
