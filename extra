@@ -301,3 +301,112 @@ a:hover{
     float: left;
     margin:0%
 }
+
+*****
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-position:center;
+    background-color: rgb(45,101,104);;
+    background-image: url(images/sunpattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.row{
+    padding-bottom: 2rem;
+}
+
+header{
+    padding: 10px 10px;
+    text-align: left;
+    background-color: rgb(134,164,159);
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(45,101,104);
+    font-family:'Poppins', sans-serif;
+    font-size:.75em;
+    font-weight:500; 
+    text-transform:lowercase;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+    white-space: nowrap;
+}
+
+
+
+h1#headerName {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 400px){
+    
+    header {
+        text-align: left;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mads Rothell</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link href="stylesheet.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="row">
+                
+              <div class="six columns">
+                <h1>Mads Rothell</h1>
+              </div>
+        
+              <div class="six columns">
+                <nav>
+                    <ul> 
+                        <li><a href="https://www.figma.com/proto/gzvrGVKjae1dILUPe0hVGZ/NonProfit-Website-Redesign?node-id=5%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A3&show-proto-sidebar=1z">Project 1</a></li>
+                        <li><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:b4e362bb-e1aa-39ac-9704-9095ec60b2f1">Project 1 Process</a></li>
+                        <li><a href="project-2/index.html">Project 2</a></li> 
+                        <li><a href="project-2-progress/index.html">Project 2 Process</a></li>
+                    </ul>
+                </nav>
+              </div>
+        
+            </div>
+          </div>
+    </header>
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
