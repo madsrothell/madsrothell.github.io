@@ -1,10 +1,6 @@
 body {
     font-family:'Poppins', sans-serif;
-    background-position:center;
-    background-color: rgb(45,101,104);;
-    background-image: url(images/sunpattern.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:rgb(250,234,219);
     font-size: 16px;
     line-height: 1.5;
     margin:0%;
@@ -21,14 +17,9 @@ body {
   .row{
     display:inline-block;
     position: relative;
+    padding: 20px 0px;
+    margin-top: 10px;
   }
-
-  .six-columns {
-    border: 10px solid rgb(157,33,63);
-    background-color:rgb(250,234,219);
-    padding: 10px;
-  }
-  
 
   header {
     text-align: left;
@@ -43,9 +34,18 @@ body {
     margin: 0 auto;
   }
 
+  .column{
+    padding: 30px;
+    margin: 0;
+  }
+
   img{
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border-color: rgb(157,33,63);
+    border: 15px solid;
   }
   
   h1 {
@@ -61,6 +61,15 @@ body {
     font-size: 24px;
     font-weight: 500;
     color:rgb(17,17,29);
+
+  }
+
+  h3{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: rgb(157,33,63);
   }
   
   nav ul {
@@ -96,10 +105,10 @@ body {
     color:rgb(17,17,29);
     border-bottom: 5em;
   }
-  
-  /* Style the main section */
-  main {
-    padding: 20px 0;
+
+  .column {
+    background-color: rgb(250,234,219);
+    padding: 10px 10px;
   }
   
   /* Style the sidebar */
