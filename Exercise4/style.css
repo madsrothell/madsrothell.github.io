@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
+
+img#instaIcon {
+    position: fixed;
+    width: 6%;
+    top: 9%;
+    right: 5%;
+    z-index: 999;
+}
+ 
+.row{
+    display: flex;
+    position: relative;
+}
+
+.bio{
+    display: flex;
+    position: relative;
+}
+
+header{
+    padding: 10px 10px;
+    text-align: left;
+    background-color: rgb(134,164,159);
+    position: relative;
+}
+
+nav{
+    margin: 50px 0px;
+    position:relative;
+    z-index: 1;
+}
+
+.column {
+    width: 33.33%;
+    float: left;
+    margin: 10%;
+    }
+
+.col-49{
+    width: 49%;
+    float: left;
+    text-align: center;
+    padding: 50px 50px;
+    background-color:rgb(250,234,219);
+    border: 10px solid;
+    border-color: rgb(157,33,63);
+}
+
+.col-32{
+    width: 32%;
+    padding: 33px 33px;
+    background-color: rgb(157,33,63);
+}
+
+.right-margin{
+    margin-right: 2%;
+}
+
+ul{
+    list-style-type: none;
+    color: rgb(45,101,104);
+    font-family:'Poppins', sans-serif;
+    font-size:.75em;
+    font-weight:500; 
+    text-transform:lowercase;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+    padding: 12px;
+}
+
+body {
+    background-position:center;
+    background-color: rgb(45,101,104);;
+    background-image: url(images/sunpattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0%;
+    padding:0%;
+    overflow:scroll;
+}
+
+footer{
+    padding: 30px 30px;
+    text-align: left;
+    background-color: rgb(134,164,159);
+}
+
+h1 {
+    color: rgb(157,33,63);
+    font-family:'Poppins', sans-serif;
+    font-size:4.5em;
+    font-weight:700;
+    line-height:1em;
+    text-align:left; 
+    text-transform:lowercase;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+h2 {
+    color: rgb(45,101,104);
+    font-family: 'Poppins', sans-serif;
+    font-size:1.5em;
+    font-weight:600;
+    line-height:1em;
+    text-align:left;
+    text-transform:lowercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: rgb(250,234,219);
+    font-family:'Poppins', sans-serif;
+    font-size:1em;
+    font-weight:500; 
+    line-height:1em;
+    text-transform:lowercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: rgb(157,33,63);
+    font-family:'Poppins', sans-serif;
+    font-size:1em;
+    font-weight:500;
+    font-style:italic;
+    line-height:1em;
+    text-align:left;
+    text-transform:lowercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p{
+    color: rgb(17,17,29);
+    font-family:'Poppins', sans-serif;
+    font-size:.75em;
+    font-weight:300;
+    text-align:left;
+    line-height:normal;
+    padding-bottom: 10px;
+}
+
+a:link {
+    color:rgb(250,234,219);
+    text-decoration:underline;
+    border-bottom:5em;
+}
+
+a:visited {
+    color: rgb(157,33,63);
+    text-decoration:dotted;
+    border-bottom:5em;
+}
+
+a:hover{
+    color:rgb(17,17,29);
+    border-bottom: 5em;
+}
+
+@media only screen and (max-width: 400px) {} /* smaller than mobile
+*/
+.column {
+    width: 100%;
+    float: left;
+    margin:0%
+}
