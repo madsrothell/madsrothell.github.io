@@ -1,4 +1,4 @@
-body {
+  body {
     font-family:'Poppins', sans-serif;
     background-color:rgb(250,234,219);
     font-size: 16px;
@@ -7,17 +7,19 @@ body {
     padding:0%;
     overflow:scroll;
   }
+
+  img#instaIcon {
+    position: fixed;
+    width: 6%;
+    top: 9%;
+    right: 5%;
+    z-index: 999;
+  }
   
   .container {
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
-  }
-
-  hr {
-    border: 0; 
-    border-top: 10px dotted rgb(45,101,104); 
-    margin: 20px 0; 
   }
 
   .row{
@@ -36,6 +38,19 @@ body {
   }
 
   .header-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: left;
+    background-color: rgb(250,234,219);
+    margin-top: -2px;
+    margin-bottom: 80px;
+    padding: 80px 20px;
+  }
+
+  .footer-content {
     max-width: 960px;
     margin: 0 auto;
   }
@@ -116,16 +131,3 @@ body {
     background-color: rgb(250,234,219);
     padding: 10px 10px;
   }
-  
-  /* Style the sidebar */
-  .sidebar {
-    border-right: 1px solid #ccc;
-  }
-  
-  /* Style the footer */
-  footer {
-    padding: 20px 0;
-    text-align: center;
-    border-top: 1px solid #ccc;
-  }
-  
