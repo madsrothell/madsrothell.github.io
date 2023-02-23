@@ -16,6 +16,10 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
+    transform:translateY(300px);
+    animation-name: slide-up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
   }
 
   .row{
@@ -40,7 +44,7 @@
 
   footer {
     text-align: left;
-    background-color: rgb(45,101,104);;
+    background-color: rgb(45,101,104);
     margin-top: -20px;
     margin-bottom: 50px;
     padding: 80px 20px;
@@ -77,8 +81,8 @@
     margin: 0;
     font-size: 24px;
     font-weight: 500;
+    padding-top: 10px;
     color:rgb(17,17,29);
-
   }
 
   h3{
@@ -127,3 +131,60 @@
     background-color: rgb(250,234,219);
     padding: 10px 10px;
   }
+
+  .bio-block {
+    background-color: rgb(250,234,219);
+    padding: 10px 10px;
+    transition: background-color 1s ease;
+  }
+
+  .bio-block:hover{
+    animation-name: textcolor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .bio-block:not(:hover) {
+    animation-name: textreverse;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes textcolor{
+    from {background-color: rgb(250,234,219);}
+    to {background-color:  rgb(134,164,159);}
+  }
+
+  @keyframes textreverse{
+    from {background-color: rgb(134,164,159);}
+    to {background-color:  rgb(250,234,219);}
+  }
+
+  img:hover {
+    animation-name: grow;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes grow {
+    from {transform: scale(1)}
+    to {transform: scale(1.03);}
+  }
+
+  @keyframes slide-up {
+    from {transform: translateY(300px);}
+    to {transform: translateY(0px);}
+  }
+
+ 
+  
+  
+  
+  
+  
+
+
+
+
+
+
