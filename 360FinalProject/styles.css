@@ -1,0 +1,364 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(54, 89, 74);
+    overflow-x: hidden;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+    z-index: 999;
+}
+
+li {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20 20;
+    text-align: left;
+    list-style: circle;
+}
+  
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+nav li {
+    display: inline-block;
+}
+  
+nav a {
+    display: inline-block;
+    padding: 10px;
+}
+  
+nav img {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.subheader {
+    height: 250px;
+    background-color: lightgrey;
+    color: lightgrey;
+    z-index: 999;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    padding: 80px 40px;
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10 10;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10 10;
+    text-align: left;
+}
+
+h3{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 10 10;
+    text-align: left;
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20 20;
+    text-align: left;
+}
+
+.main-container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-row{
+    display:inline-block;
+    position: relative;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.cue-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 50px 50px;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    margin-top: 40px;
+}
+
+.ball-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate-shrink-move {
+    transform: rotate(0deg) scale(1.4);
+    position: relative;
+    left: 0;
+    top: 0;
+  
+    animation-name: rotate-shrink-move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+  
+.text-box {
+    width: 700px;
+    height: 350px;
+    padding: 40px 40px;
+    text-align: left;
+    background-color: lightgray;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    opacity: 0;
+    animation-name: text-box-appear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+  
+@keyframes rotate-shrink-move {
+    0% {
+      transform: rotate(0deg) scale(1.4) translateX(0);
+    }
+    100% {
+      transform: rotate(0deg) scale(0.90) translateX(-50%);
+    }
+}
+  
+@keyframes text-box-appear {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-30%);
+    }
+}
+
+
+.rotate-shrink-move-right {
+    transform: rotate(0deg) scale(1.4) translate(50%);
+    position: relative;
+    right: 0;
+    top: 0;
+  
+    animation-name: rotate-shrink-move-right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+  
+.text-box-right {
+    width: 700px;
+    height: 350px;
+    padding: 40px 40px;
+    text-align: left;
+    background-color: lightgrey;
+    transform: translateX(-100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    opacity: 0;
+  
+    animation-name: text-box-appear-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+  
+@keyframes rotate-shrink-move-right {
+    0% {
+      transform: rotate(0deg) scale(1.4) translateX(50%);
+    }
+    100% {
+      transform: rotate(0deg) scale(0.90) translateX(135%);
+    }
+}
+  
+@keyframes text-box-appear-right {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-10%);
+    }
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+.footer p {
+    text-align: right;
+}
+
+#Cue{
+    animation-delay: 2s;
+}
+  
+#Ball1 {
+    animation-delay: 3s;
+}
+  
+#TextBox1 {
+    animation-delay: 4s;
+}
+
+#Ball2 {
+    animation-delay: 6s;
+}
+  
+#TextBoxRight2 {
+    animation-delay: 7s;
+}
+
+#Ball3 {
+    animation-delay: 9s;
+}
+  
+#TextBox3 {
+    animation-delay: 10s;
+    height: 600px;
+}
+
+#Ball4 {
+    animation-delay: 12s;
+}
+  
+#TextBoxRight4 {
+    animation-delay: 13s;
+}
+
+#Ball5 {
+    animation-delay: 15s;
+}
+  
+#TextBox5 {
+    animation-delay: 16s;
+}
+
+#Ball6 {
+    animation-delay: 18s;
+}
+  
+#TextBoxRight6 {
+    animation-delay: 19s;
+}
+
+#Ball7 {
+    animation-delay: 21s;
+}
+  
+#TextBox7 {
+    animation-delay: 22s;
+}
+
+#Ball8 {
+    animation-delay: 24s;
+}
+  
+#TextBoxRight8 {
+    animation-delay: 25s;
+    height: 500px;
+}
+
+#Ball9 {
+    animation-delay: 27s;
+}
+  
+#TextBox9 {
+    animation-delay: 28s;
+    height: 400px;
+}
+
+#Ball10 {
+    animation-delay: 30s;
+}
+  
+#TextBoxRight10 {
+    animation-delay: 31s;
+}
+
+  
+
+  
+  
+  
+  
